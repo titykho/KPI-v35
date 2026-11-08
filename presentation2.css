@@ -56,11 +56,11 @@
     outline: none;
     border: none;
     border-radius: 0px;
-    padding-left: 0.5em;
+    padding-left: 0.3em;
     margin-left: 1%;
     /* font-size: 40px; */
     /* font-size: clamp(40px, 2dvw, 2rem) ; */
-    width: 30dvw; 
+    width: 31dvw; 
     height: 5dvh ;  
     background-color: white
 }
