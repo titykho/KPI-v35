@@ -219,7 +219,7 @@ function getPromotxt(){
       .then(response => response.json())
       .then(jsonData => {
         let jsonData1=JSON.parse(JSON.stringify(jsonData));
-        promomsg = jsonData1[0].promo;
+        promomsg = jsonData1.promo;
         
         document.querySelector('.base-txt').innerText= promomsg;
         console.log("json string ",promomsg,jsonData1)    // console.log("JSON Data:", jsonData);
